@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("HanselmanAndroid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("$safeprojectname$Android.Resource", IsApplication=true)]
 
-namespace HanselmanAndroid
+namespace $safeprojectname$Android
 {
 	
 	
@@ -26,7 +26,7 @@ namespace HanselmanAndroid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::HanselmanAndroid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::$safeprojectname$Android.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

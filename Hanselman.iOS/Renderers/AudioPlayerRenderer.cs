@@ -6,14 +6,14 @@ using System.Text;
 using Foundation;
 using UIKit;
 using Xamarin.Forms;
-using Hanselman.Portable.Helpers;
-using Hanselman.iOS.Renderers;
+using $safeprojectname$.Portable.Helpers;
+using $safeprojectname$.iOS.Renderers;
 using Xamarin.Forms.Platform.iOS;
 using AVFoundation;
 using System.Timers;
 using CoreMedia;
 [assembly: ExportCell(typeof(AudioPlayer), typeof(AudioPlayerRenderer))]
-namespace Hanselman.iOS.Renderers
+namespace $safeprojectname$.iOS.Renderers
 {
   public class AudioPlayerRenderer : FrameRenderer
   {

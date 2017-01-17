@@ -6,10 +6,10 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-using Hanselman.Portable;
+using $safeprojectname$.Portable;
 using ImageCircle.Forms.Plugin.iOS;
 
-namespace Hanselman.iOS
+namespace $safeprojectname$.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the
     // User Interface of the application, as well as listening (and optionally responding) to

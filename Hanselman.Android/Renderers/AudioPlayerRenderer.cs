@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
-using Hanselman.Portable.Helpers;
+using $safeprojectname$.Portable.Helpers;
 using Xamarin.Forms.Platform.Android;
-using HanselmanAndroid.Renderers;
+using $safeprojectname$Android.Renderers;
 using Android.Media;
 using System.Timers;
 [assembly: ExportCell(typeof(AudioPlayer), typeof(AudioPlayerRenderer))]
-namespace HanselmanAndroid.Renderers
+namespace $safeprojectname$Android.Renderers
 {
     public class AudioPlayerRenderer : FrameRenderer
     {
