@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
-using $safeprojectname$.Portable.Helpers;
+using $ext_safeprojectname$.Portable.Helpers;
 using Xamarin.Forms.Platform.UWP;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml;
-using $safeprojectname$.UWP.Renderers;
+using $safeprojectname$.Renderers;
 
 [assembly: ExportCell(typeof(AudioPlayer), typeof(AudioPlayerRenderer))]
-namespace $safeprojectname$.UWP.Renderers
+namespace $safeprojectname$.Renderers
 {
   public class AudioPlayerRenderer : FrameRenderer
   {

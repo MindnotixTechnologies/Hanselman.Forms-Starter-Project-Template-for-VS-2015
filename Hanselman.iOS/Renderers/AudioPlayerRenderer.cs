@@ -6,14 +6,14 @@ using System.Text;
 using Foundation;
 using UIKit;
 using Xamarin.Forms;
-using $safeprojectname$.Portable.Helpers;
-using $safeprojectname$.iOS.Renderers;
+using $ext_safeprojectname$.Portable.Helpers;
+using $safeprojectname$.Renderers;
 using Xamarin.Forms.Platform.iOS;
 using AVFoundation;
 using System.Timers;
 using CoreMedia;
 [assembly: ExportCell(typeof(AudioPlayer), typeof(AudioPlayerRenderer))]
-namespace $safeprojectname$.iOS.Renderers
+namespace $safeprojectname$.Renderers
 {
   public class AudioPlayerRenderer : FrameRenderer
   {
