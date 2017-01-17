@@ -10,10 +10,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Gms.Wearable;
-using Hanselman.Portable;
+using $ext_safeprojectname$.Portable;
 using Android.Gms.Common.Apis;
 
-namespace HanselmanAndroid
+namespace $safeprojectname$
 {
     [Service]
     [IntentFilter(new[] { "com.google.android.gms.wearable.BIND_LISTENER" })]
